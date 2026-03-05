@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تواصل معنا | Loving Homes – هونج كونج</title>
+    <meta name="description" content="تواصل مع Loving Homes هونج كونج لحجز فندق الكلاب">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-paw"></i>
+                <span>Loving Homes</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">الرئيسية</a></li>
+                <li><a href="services.html" class="nav-link">الخدمات</a></li>
+                <li><a href="packages.html" class="nav-link">الحزم</a></li>
+                <li><a href="about.html" class="nav-link">من نحن</a></li>
+                <li><a href="contact.html" class="nav-link active">تواصل معنا</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>تواصل معنا</h1>
+            <p>نحن هنا لمساعدتك في رعاية كلبك</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>أرسل لنا رسالة</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">الاسم الكامل *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">البريد الإلكتروني *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">رقم الهاتف *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="package">نوع الحزمة</label>
+                            <select id="package" name="package">
+                                <option value="">اختر الحزمة</option>
+                                <option value="premium">الحزمة المميزة</option>
+                                <option value="classic">الحزمة الكلاسيكية</option>
+                                <option value="day">حزمة اليوم</option>
+                                <option value="custom">حزمة مخصصة</option>
+                                <option value="not-sure">لم أقرر بعد</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="dog-name">اسم الكلب</label>
+                            <input type="text" id="dog-name" name="dog-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="dog-breed">سلالة الكلب</label>
+                            <input type="text" id="dog-breed" name="dog-breed">
+                        </div>
+                        <div class="form-group">
+                            <label for="checkin-date">تاريخ الوصول</label>
+                            <input type="date" id="checkin-date" name="checkin-date">
+                        </div>
+                        <div class="form-group">
+                            <label for="checkout-date">تاريخ المغادرة</label>
+                            <input type="date" id="checkout-date" name="checkout-date">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">الرسالة *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="أخبرنا عن احتياجات كلبك وأي متطلبات خاصة..."></textarea>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="newsletter" name="newsletter">
+                                <span class="checkmark"></span>
+                                أود تلقي العروض والتحديثات البريدية
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">إرسال الرسالة</button>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info-container">
+                    <h2>معلومات التواصل</h2>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="info-content">
+                                <h3>الهاتف</h3>
+                                <p><a href="tel:+85212345678">+852 1234 5678</a></p>
+                                <p>متاح 24/7 للطوارئ</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-content">
+                                <h3>البريد الإلكتروني</h3>
+                                <p><a href="mailto:info@lovinghomes.hk">info@lovinghomes.hk</a></p>
+                                <p><a href="mailto:bookings@lovinghomes.hk">bookings@lovinghomes.hk</a></p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h3>العنوان</h3>
+                                <p>Loving Homes Dog Hotel</p>
+                                <p>123 Pet Street, Kowloon</p>
+                                <p>هونج كونج</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="info-content">
+                                <h3>أوقات العمل</h3>
+                                <p>الأحد - الخميس: 7:00 ص - 10:00 م</p>
+                                <p>الجمعة - السبت: 7:00 ص - 11:00 م</p>
+                                <p>خدمات الطوارئ: 24/7</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quick Contact -->
+                    <div class="quick-contact">
+                        <h3>تواصل السريع</h3>
+                        <p>للحجوزات العاجلة أو الاستفسارات الطارئة:</p>
+                        <div class="quick-buttons">
+                            <a href="tel:+85212345678" class="btn btn-primary">
+                                <i class="fas fa-phone"></i>
+                                اتصل الآن
+                            </a>
+                            <a href="https://wa.me/85212345678" class="btn btn-success">
+                                <i class="fab fa-whatsapp"></i>
+                                واتساب
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Contact -->
+    <section class="emergency-contact">
+        <div class="container">
+            <div class="emergency-content">
+                <div class="emergency-icon">
+                    <i class="fas fa-ambulance"></i>
+                </div>
+                <div class="emergency-text">
+                    <h2>طوارئ 24/7</h2>
+                    <p>للحالات الطارئة فقط، اتصل بنا على أي وقت</p>
+                    <a href="tel:+85212345678" class="emergency-number">+852 1234 5678</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-paw"></i>
+                        <span>Loving Homes</span>
+                    </div>
+                    <p>حيث يشعر كلبك وكأنه في منزله</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="services.html">الخدمات</a></li>
+                        <li><a href="packages.html">الحزم</a></li>
+                        <li><a href="about.html">من نحن</a></li>
+                        <li><a href="contact.html">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>معلومات التواصل</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-phone"></i> +852 1234 5678</li>
+                        <li><i class="fas fa-envelope"></i> info@lovinghomes.hk</li>
+                        <li><i class="fas fa-map-marker-alt"></i> هونج كونج</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Loving Homes – هونج كونج. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
